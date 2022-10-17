@@ -67,7 +67,7 @@ function App() {
         <ChartContainer src="https://datawrapper.dwcdn.net/fl5FK/1/" title="Ukrainian wheat exports to Least Developed Countries" />
       </div>
       <div className="chart_container">
-        <ChartContainer src="https://datawrapper.dwcdn.net/jg2jj/3/" title="The Initiative has helped to push down food prices in the last six months" />
+        <ChartContainer src="https://datawrapper.dwcdn.net/eZZVE/1/" title="The Initiative has helped to push down food prices in the last six months" />
       </div>
       <div className="content_container">
         <p>The prospect of the Black Sea Grain Initiative and the reopening of the Black Sea ports helped to push down historically high market prices. Since April 2022, the FAO Food Price index has been on a downward trend.</p>
