@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,600');
+
+@import 'colors.less';
+
+#app-root-2022-a_trade_hope .app {
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  .background {
+    background-color: @unblue;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    padding: 60px 20px 60px 20px;
+    text-align: center;
+  }
+  .content_container {
+    box-sizing: border-box;
+    margin: auto auto 40px auto;
+    max-width: 650px;
+    padding: 0 10px;
+    h2 {
+      display: inline-block;
+      font-size: 56px;
+      margin: 20px auto 20px auto;
+      padding: 7px 15px;
+      text-transform: uppercase;
+      &.title {
+        margin: 0 auto 100px auto;
+        background-color: #fff;
+        color: @unblue;
+      }
+      &.highlight {
+        color: #fff;
+      }
+    }
+    h3 {
+      font-size: 40px;
+      line-height: 40px;
+      margin: auto auto 5px auto;
+      max-width: 540px;
+      &.subtitle {
+        text-transform: uppercase;
+      }
+      &.highlight {
+        color: #fff;
+      }
+    }
+    h4 {
+      letter-spacing: 0.05em;
+      font-weight: 400;
+      &.unctad {
+        text-transform: uppercase;
+        color: #fff;
+      }
+      &.date {
+        background-color: #fff;
+        padding: 5px 7px;
+        display: inline-block;
+      }
+    }
+    p {
+      font-size: 26px;
+      &.highlight {
+        color: #fff;
+      }
+    }
+  }
+  .chart_container {
+    background-color: #f5f5f5;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+    margin: auto auto 40px auto;
+    max-width: 700px;
+    padding: 20px;
+    iframe {
+      border: none;
+      height: 450px !important;
+      min-width: 100% !important;
+      width: 0;
+      @media all and (max-width: 490px) {
+        // height: 450px !important;
+      }
+    }
+  }
+}
+
+@import 'basics.less';
