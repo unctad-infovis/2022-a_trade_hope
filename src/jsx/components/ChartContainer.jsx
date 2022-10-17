@@ -5,9 +5,7 @@ function ChartContainer({
   src, title
 }) {
   return (
-    <div className="chart_container">
-      <iframe loading="lazy" title={title} aria-label={title} src={src} scrolling="no" frameBorder="0" height="auto" />
-    </div>
+    <iframe loading="lazy" title={title} aria-label={title} src={src} scrolling="no" frameBorder="0" height="auto" />
   );
 }
 
