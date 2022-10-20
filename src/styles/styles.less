@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,500');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
 
 @import 'colors.less';
 
@@ -9,7 +10,50 @@
     box-sizing: border-box;
     margin-bottom: 40px;
     padding: 60px 20px 60px 20px;
+    position: relative;
     text-align: center;
+    &.last_slide {
+      min-height: 50vh;
+    }
+    &.with_ship {
+      background-image: url("./../assets/img/2022-black_sea_grain_initiative_banner.jpg");
+      background-position: -300px 100%;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+    }
+    .content_container {
+      h3 {
+        margin: auto auto 5px auto;
+        max-width: 540px;
+      }
+      p {
+        font-size: 28px;
+        font-weight: 500;
+      }
+    }
+  }
+  .ship_container {
+    background-image: url("./../assets/img/2022-black_sea_grain_initiative_banner.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 355px;
+    margin: auto auto 150px auto;
+    max-width: 969px;
+    position: relative;
+    text-align: center;
+    .logo_container {
+      bottom: -90px;
+
+    }
+  }
+  .logo_container {
+    left: calc(50% - 62px);
+    position: absolute;
+    .unctad_logo {
+      margin: 100px auto 0 auto;
+      max-width: 124px;
+    }
   }
   .content_container {
     box-sizing: border-box;
@@ -18,9 +62,12 @@
     padding: 0 10px;
     h2 {
       display: inline-block;
-      font-size: 56px;
-      margin: 20px auto 20px auto;
-      padding: 7px 15px;
+      font-family: "Roboto Condensed";
+      font-size: 70px;
+      font-weight: 700;
+      line-height: 70px;
+      margin: 10px auto 20px auto;
+      padding: 0px 10px;
       text-transform: uppercase;
       &.title {
         margin: 0 auto 100px auto;
@@ -29,42 +76,70 @@
       }
       &.highlight {
         color: #fff;
+        margin-bottom: 0;
+        padding: 0;
       }
     }
     h3 {
+      font-family: "Roboto Condensed";
+      font-weight: 700;
       font-size: 40px;
       line-height: 40px;
-      margin: auto auto 5px auto;
-      max-width: 540px;
+      margin: 0 0 20px 0;
       &.subtitle {
         text-transform: uppercase;
       }
       &.highlight {
         color: #fff;
       }
-      .unctad_logo {
-        margin: 100px auto 50px auto;
-        max-width: 150px;
-      }
     }
     h4 {
+      font-family: "Roboto Condensed";
       letter-spacing: 0.05em;
-      font-weight: 500;
+      font-weight: 400;
+      font-size: 22px;
       &.unctad {
         text-transform: uppercase;
         color: #fff;
       }
       &.date {
         background-color: #fff;
-        padding: 5px 7px;
         display: inline-block;
+        padding: 5px 7px;
+        &.highlight {
+          background-color: #000;
+          color: #fff;
+        }
+      }
+      &.meta {
+        margin-bottom: 0;
+        padding: 0;
+        font-size: 28px;
+        color: #000;
       }
     }
     p {
-      font-size: 26px;
-      font-weight: 500;
+      text-align: left;
+      font-size: 22px;
+      font-weight: 400;
       &.highlight {
         color: #fff;
+      }
+    }
+    .un_link_container {
+      margin-top: 100px;
+      .un_link {
+        background-color: rgba(255, 255, 255, 0.85);
+        border-radius: 30px;
+        color: #000;
+        font-size: 30px;
+        font-weight: 200;
+        padding: 2px 15px;
+        text-decoration: none;
+        text-transform: uppercase;
+        &:hover {
+          background-color: #fff;
+        }
       }
     }
   }
