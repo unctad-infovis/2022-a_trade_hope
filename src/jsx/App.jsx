@@ -22,21 +22,25 @@ function App() {
 
   return (
     <div className="app">
-      <div className="background">
+      {
+        // Banner container
+      }
+      <div className="background" style={{ paddingBottom: 0 }}>
         <div className="content_container">
           <h2 className="title">A Trade Hope</h2>
           <h3 className="subtitle highlight">The Role Of The Black Sea Grain Initiative</h3>
           <h3 className="subtitle">In Bringing Ukrainian Grain To The World</h3>
           <h4 className="date">20 October 2022</h4>
         </div>
-        <div className="ship_container">
-          <div className="logo_container"><img src="./assets/img/2022-a_trade_hope_unctad_logo_white.png" alt="UNCTAD Logo" className="unctad_logo" /></div>
-        </div>
+        <div className="ship_container" />
       </div>
+      {
+      // Quote container
+      }
       <div className="content_container">
         <div className="quote_container">
           <div className="photo_container">
-            <div><img src="./assets/img/2022-a_trade_hope_antonio_guterres.png" alt="António Guterres" /></div>
+            <div><img src="https://storage.unctad.org/2022-a_trade_hope/assets/img/2022-a_trade_hope_antonio_guterres.png" alt="António Guterres" /></div>
             <div className="caption">Photo/Mark Garten/ONU</div>
           </div>
           <div className="text_container">
@@ -57,11 +61,17 @@ function App() {
           </div>
         </div>
       </div>
+      {
+      // Acknowledgements container
+      }
       <div className="content_container">
         <h4 className="title">Acknowledgements</h4>
         <p>This report would not have been possible without the essential contributions of the Joint Coordination Center for the Black Sea Grain Initiative, comprised of senior representative from Ukraine, the Russian Federation, Türkiye and the United Nations, which ensures the safe maritime transportation of grain and other foodstuffs from three key Ukrainian ports in the Black Sea to the rest of the world.</p>
         <p>The Global Crisis Response Group convened by the UN Secretary General played an important role, focusing the world’s attention on the food insecurity crisis, providing analysis and calling on the international community to avert the worst cost of living crisis in a generation and its devastating impact on billions of people.</p>
       </div>
+      {
+      // Introduction container
+      }
       <div className="background">
         <div className="content_container">
           <h4 className="title">Introduction</h4>
@@ -71,6 +81,9 @@ function App() {
           <p className="highlight justify">However, with the BSGI ending in just over a month and its renewal uncertain, the price of some commodities, such as wheat and maize, is rising again. Without The Initiative, there is little hope for providing food security, especially for developing and least developed countries.</p>
         </div>
       </div>
+      {
+      // Section 1 container
+      }
       <div className="section_banner_container section_banner_container_1">
         <div className="section_banner"><div className="number">1</div></div>
         <div className="heading_wrapper"><h3>Increasing port activity</h3></div>
@@ -106,6 +119,9 @@ function App() {
       <div className="chart_container">
         <ChartContainer src="https://datawrapper.dwcdn.net/uAhX8/1/" title="The gap in weekly grain cargo is closing. But there is still work to do" />
       </div>
+      {
+      // Section 2 container
+      }
       <div className="section_banner_container section_banner_container_2">
         <div className="section_banner"><div className="number">2</div></div>
         <div className="heading_wrapper"><h3>Reopening the grain gates of Ukraine to developing countries</h3></div>
@@ -148,7 +164,9 @@ function App() {
       <div className="content_container">
         <p>Important export gaps remain to be filled. As 2022 comes to a close, demand from developing and least developed countries may not be met without the BSGI. The importance of the BSGI for the most vulnerable nations cannot be underestimated.</p>
       </div>
-
+      {
+      // Section 3 container
+      }
       <div className="section_banner_container section_banner_container_3">
         <div className="section_banner"><div className="number">3</div></div>
         <div className="heading_wrapper"><h3>Pushing down food prices</h3></div>
@@ -175,7 +193,7 @@ function App() {
           <h3 className="highlight">The Initiative remains vital for global food security</h3>
           <p>The urgent threat of rising world hunger and the cost to human life requires an urgent response. Amid these difficult and complex challenges, the Black Sea Grain Initiative provided a measure of stability to our global food supply and especially for developing countries. The Initiative has gathered momentum and everyday ensures that more and more grain reaches the world. It has managed to lessen the blow on the most vulnerable but there is still more to be done to maintain access and restore exports to those in need.</p>
           <p className="highlight">For the time being, the Black Sea Grain Initiative may be our best hope.</p>
-          <div className="logo_container"><img src="./assets/img/2022-a_trade_hope_unctad_logo_white.png" alt="UNCTAD Logo" className="unctad_logo" /></div>
+          <p className="button_container"><a href="https://unctad.org/webflyer/trade-hope-role-black-sea-grain-initiative-bringing-ukrainian-grain-world" className="button">Download the report in PDF</a></p>
         </div>
       </div>
       <noscript>Your browser does not support JavaScript!</noscript>

@@ -2,6 +2,9 @@
 
 **Live demo** https://unctad-infovis.github.io/2022-a_trade_hope/
 
+## Used in
+* [A Trade Hope Report](https://unctad.org/a-trade-hope)
+
 ## Rights of usage
 
 Contact Teemo Tebest.
