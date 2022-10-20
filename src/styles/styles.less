@@ -8,15 +8,28 @@
   .background {
     background-color: @unblue;
     box-sizing: border-box;
-    margin-bottom: 40px;
-    padding: 60px 20px 60px 20px;
+    padding: 60px 0 60px 0;
     position: relative;
     text-align: center;
     &.last_slide {
       min-height: 50vh;
+      .content_container {
+        h3 {
+          font-weight: 700;
+          max-width: 100%;
+          text-align: left;
+          text-transform: none;
+        }
+        p {
+          color: #000;
+          &.highlight {
+            color: #fff;
+          }
+        }
+      }
     }
     &.with_ship {
-      background-image: url("./../assets/img/2022-black_sea_grain_initiative_banner.jpg");
+      background-image: url("./../assets/img/2022-a_trade_hope_banner.jpg");
       background-position: -300px 100%;
       background-repeat: no-repeat;
       background-size: 100% auto;
@@ -27,13 +40,17 @@
         max-width: 540px;
       }
       p {
-        font-size: 28px;
+        font-size: 18px;
+        color: #fff;
         font-weight: 500;
+        &.justify {
+          // text-align: justify;
+        }
       }
     }
   }
   .ship_container {
-    background-image: url("./../assets/img/2022-black_sea_grain_initiative_banner.jpg");
+    background-image: url("./../assets/img/2022-a_trade_hope_banner.jpg");
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,7 +61,6 @@
     text-align: center;
     .logo_container {
       bottom: -90px;
-
     }
   }
   .logo_container {
@@ -53,6 +69,45 @@
     .unctad_logo {
       margin: 100px auto 0 auto;
       max-width: 124px;
+    }
+  }
+  .section_banner_container {
+    .section_banner {
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 300px;
+      position: relative;
+      .number {
+        bottom: 0;
+        left: -10px;
+        font-weight: 700;
+        font-size: 420px;
+        line-height: 287px;
+        position: absolute;
+        color: rgba(255, 255, 255, 0.85);
+      }
+    }
+    &.section_banner_container_1 .section_banner {
+      background-image: url("./../assets/img/2022-a_trade_hope_section1.jpg");
+    }
+    &.section_banner_container_2 .section_banner {
+      background-image: url("./../assets/img/2022-a_trade_hope_section2.jpg");
+    }
+    &.section_banner_container_3 .section_banner {
+      background-image: url("./../assets/img/2022-a_trade_hope_section3.jpg");
+    }
+    .heading_wrapper {
+      background-color: @unblue;
+      h3 {
+        color: #fff;
+        font-family: "Roboto Condensed";
+        font-size: 34px;
+        margin: auto auto;
+        max-width: 700px;
+        box-sizing: border-box;
+        padding: 10px 200px 10px 0;
+      }
     }
   }
   .content_container {
@@ -82,10 +137,11 @@
     }
     h3 {
       font-family: "Roboto Condensed";
-      font-weight: 700;
       font-size: 40px;
+      font-weight: 400;
       line-height: 40px;
       margin: 0 0 20px 0;
+      text-transform: uppercase;
       &.subtitle {
         text-transform: uppercase;
       }
@@ -94,18 +150,25 @@
       }
     }
     h4 {
-      font-family: "Roboto Condensed";
       letter-spacing: 0.05em;
-      font-weight: 400;
-      font-size: 22px;
+      font-weight: 500;
+      font-size: 16px;
       &.unctad {
-        text-transform: uppercase;
         color: #fff;
+        text-transform: uppercase;
+      }
+      &.title {
+        font-family: "Roboto Condensed";
+        font-size: 26px;
+        margin: 0 0 20px 0;
+        text-align: left;
+        font-weight: 700;
+        text-transform: uppercase;
       }
       &.date {
         background-color: #fff;
         display: inline-block;
-        padding: 5px 7px;
+        padding: 2px 10px;
         &.highlight {
           background-color: #000;
           color: #fff;
@@ -119,11 +182,60 @@
       }
     }
     p {
+      font-size: 18px;
+      font-weight: 300;
       text-align: left;
-      font-size: 22px;
-      font-weight: 400;
       &.highlight {
         color: #fff;
+      }
+      a {
+        color: @unblue;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .quote_container {
+      margin-top: 60px;
+      .photo_container {
+        font-size: 0;
+        margin-bottom: 20px;
+        img {
+          margin-bottom: 5px;
+          width: 100%;
+        }
+        .caption {
+          color: #333;
+          font-size: 12px;
+          text-transform: uppercase;
+        }
+      }
+      .text_container {
+        background-color: @unblue;
+        color: #fff;
+        padding: 30px 30px 10px 30px;
+        position: relative;
+        &:before {
+          color: #000;
+          content: "”";
+          font-family: "Georgia", serif;
+          font-size: 120px;
+          font-weight: 700;
+          line-height: 120px;
+          position: absolute;
+          right: -30px;
+          top: -30px;
+        }
+        p {
+          margin: 0 0 20px 0;
+        }
+        .author {
+          font-weight: 700;
+          margin: 0 0 5px 0;
+          color: #000;
+        }
       }
     }
     .un_link_container {
@@ -144,11 +256,11 @@
     }
   }
   .chart_container {
-    background-color: #f5f5f5;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+    background-color: #fff;
+    // box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
     margin: auto auto 40px auto;
-    max-width: 700px;
-    padding: 20px;
+    max-width: 630px;
+    box-sizing: border-box;
     iframe {
       border: none;
       min-height: 300px;
