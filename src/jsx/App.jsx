@@ -31,6 +31,7 @@ function App() {
           <h3 className="subtitle highlight">The Role Of The Black Sea Grain Initiative</h3>
           <h3 className="subtitle">In Bringing Ukrainian Grain To The World</h3>
           <h4 className="date">20 October 2022</h4>
+          <p className="button_container"><a href="https://unctad.org/webflyer/trade-hope-role-black-sea-grain-initiative-bringing-ukrainian-grain-world" className="button">Download the report in PDF</a></p>
         </div>
         <div className="ship_container" />
       </div>
