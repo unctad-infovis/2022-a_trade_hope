@@ -75,10 +75,10 @@ function App() {
       <div className="background">
         <div className="content_container">
           <h4 className="title">Introduction</h4>
-          <p className="justify">As two of the world’s largest suppliers of grain, Ukraine and the Russian Federation are important sources of food for many developing countries. However, the war brought grain exports from Ukraine to an almost grinding halt and slowed down exports of grain and fertilizers from the Russian Federation. </p>
-          <p className="justify">Faced with the threat of food insecurity for millions of people around the world, on 22 July, 2022, the United Nations brokered two initiatives. One is the memorandum of understanding between the UN and the Russian Federation to facilitate unimpeded access for their food and fertilizers exports to global markets. The second, and the focus of this analysis, is the Black Sea Grain Initiative (BSGI) signed by the UN, the Russian Federation, Türkiye and Ukraine to resume Ukrainian grain exports via the Black Sea amid the war.</p>
-          <p className="justify">In a short space of time, the BSGI has gathered momentum. Port activity in Ukraine is picking up and large shipments of grain are reaching world markets. The Initiative has helped to stabilize and subsequently lower global food prices, and move precious grain from one of the world’s breadbaskets to the tables of those in need.</p>
-          <p className="highlight justify">However, with the BSGI ending in just over a month and its renewal uncertain, the price of some commodities, such as wheat and maize, is rising again. Without The Initiative, there is little hope for providing food security, especially for developing and least developed countries.</p>
+          <p>As two of the world’s largest suppliers of grain, Ukraine and the Russian Federation are important sources of food for many developing countries. However, the war brought grain exports from Ukraine to an almost grinding halt and slowed down exports of grain and fertilizers from the Russian Federation. </p>
+          <p>Faced with the threat of food insecurity for millions of people around the world, on 22 July, 2022, the United Nations brokered two initiatives. One is the memorandum of understanding between the UN and the Russian Federation to facilitate unimpeded access for their food and fertilizers exports to global markets. The second, and the focus of this analysis, is the Black Sea Grain Initiative (BSGI) signed by the UN, the Russian Federation, Türkiye and Ukraine to resume Ukrainian grain exports via the Black Sea amid the war.</p>
+          <p>In a short space of time, the BSGI has gathered momentum. Port activity in Ukraine is picking up and large shipments of grain are reaching world markets. The Initiative has helped to stabilize and subsequently lower global food prices, and move precious grain from one of the world’s breadbaskets to the tables of those in need.</p>
+          <p className="highlight">However, with the BSGI ending in just over a month and its renewal uncertain, the price of some commodities, such as wheat and maize, is rising again. Without The Initiative, there is little hope for providing food security, especially for developing and least developed countries.</p>
         </div>
       </div>
       {
@@ -92,7 +92,7 @@ function App() {
         <p>As the war erupted in Ukraine, the world watched as valuable grain corridors were closed off. Weekly ship departures from Ukrainian ports plummeted. There was a marginal recovery in subsequent weeks but port departures remained considerably below their 2021 levels. After the signing of the Initiative, there was a gradual rise in ship departures. While shipments are still about 40–50 per cent below the pre-war period, the trend is in the right direction.</p>
       </div>
       <div className="chart_container">
-        <ChartContainer src="https://datawrapper.dwcdn.net/2x3Y4/2/" title="More and larger ships have departed from Ukrainian ports" />
+        <ChartContainer src="https://datawrapper.dwcdn.net/2x3Y4/" title="More and larger ships have departed from Ukrainian ports" />
       </div>
       <div className="content_container">
         <p>
@@ -111,13 +111,13 @@ function App() {
         <p>Under the Initiative, these seaports were reopened – Odesa, Chornomorsk, Pivdennyi/Yuzhny. As a result, the number of port calls increased, and more importantly, the volumes carried increased significantly. Even though Danube River ports still account for the majority of vessel departures, seaports account for the majority of the volume shipped, as they are important hubs for much larger vessels.</p>
       </div>
       <div className="chart_container">
-        <ChartContainer src="https://datawrapper.dwcdn.net/f0A2Y/1/" title="And as seaport activity increased so did their exports" />
+        <ChartContainer src="https://datawrapper.dwcdn.net/f0A2Y/" title="And as seaport activity increased so did their exports" />
       </div>
       <div className="content_container">
         <p>As departures of dry bulk carriers from these major ports increased so did the amount of grain traded. Weekly tonnage shipped under the Black Sea Grain Initiative reached 1.2 million tonnes by September. This is still below 2021 levels, but the gap is closing.</p>
       </div>
       <div className="chart_container">
-        <ChartContainer src="https://datawrapper.dwcdn.net/uAhX8/1/" title="The gap in weekly grain cargo is closing. But there is still work to do" />
+        <ChartContainer src="https://datawrapper.dwcdn.net/uAhX8/" title="The gap in weekly grain cargo is closing. But there is still work to do" />
       </div>
       {
       // Section 2 container
@@ -135,17 +135,17 @@ function App() {
         </p>
       </div>
       <div className="chart_container">
-        <ChartContainer src="https://datawrapper.dwcdn.net/TwRr9/4/" title="Food is reaching global markets" />
+        <ChartContainer src="https://datawrapper.dwcdn.net/TwRr9/" title="Food is reaching global markets" />
       </div>
       <div className="content_container">
         <p>More than 3 million tonnes of maize have left Ukraine since the signing of the Initiative, most of which has gone to developed countries. However, it is important to note that this may refer only to the initial destination, as this grain may be processed or re-exported to other countries. In addition, developed countries rank amongst the world’s largest exporters and importers of animal feed of which maize is an important component. It is thus likely that part of this cargo includes maize for feedstock.</p>
         <p>In contrast, wheat, a fundamental pillar of food security for the Global South, is mostly going to developing countries. In fact, nearly 20 per cent of wheat exported has gone to least developed countries (LDCs) with vulnerable populations, as those served by the World Food Programme.</p>
       </div>
       <div className="chart_container">
-        <ChartContainer src="https://datawrapper.dwcdn.net/95VKF/2/" title="Most maize goes to developed countries, and likely a significant input for animal feed" />
+        <ChartContainer src="https://datawrapper.dwcdn.net/95VKF/" title="Most maize goes to developed countries, and likely a significant input for animal feed" />
       </div>
       <div className="chart_container">
-        <ChartContainer src="https://datawrapper.dwcdn.net/jpQLJ/1/" title="Wheat is a pillar of food security, and it is going where it is most needed" />
+        <ChartContainer src="https://datawrapper.dwcdn.net/jpQLJ/" title="Wheat is a pillar of food security, and it is going where it is most needed" />
       </div>
 
       <div className="content_container">
@@ -153,13 +153,13 @@ function App() {
         <p>For instance, close to 1 million tonnes of maize and wheat were sent from Ukraine to developing countries. However, exports between January and September 2022 are still below the export levels in the same period in 2021. The export gap, the difference between these two periods, is considerable, at 2.4 million tonnes for maize and 8.1 million tonnes for wheat.</p>
       </div>
       <div className="chart_container">
-        <ChartContainer src="https://datawrapper.dwcdn.net/ukzwU/1/" title="Vital grain is flowing, but there is still a large export gap to fill" />
+        <ChartContainer src="https://datawrapper.dwcdn.net/ukzwU/" title="Vital grain is flowing, but there is still a large export gap to fill" />
       </div>
       <div className="content_container">
         <p>The Initiative doubled the amount of wheat shipped to least developed countries between August and September - about half a million tonnes. Nevertheless, wheat exports to LDCs between January and September 2022 have totalled less than one million tonnes. This implies an export gap of 1.2 million tonnes with respect to 2021. The size of the gap may vary from country to country.</p>
       </div>
       <div className="chart_container">
-        <ChartContainer src="https://datawrapper.dwcdn.net/fl5FK/1/" title="Ukrainian wheat exports to Least Developed Countries" />
+        <ChartContainer src="https://datawrapper.dwcdn.net/fl5FK/" title="Ukrainian wheat exports to Least Developed Countries" />
       </div>
       <div className="content_container">
         <p>Important export gaps remain to be filled. As 2022 comes to a close, demand from developing and least developed countries may not be met without the BSGI. The importance of the BSGI for the most vulnerable nations cannot be underestimated.</p>
@@ -176,13 +176,13 @@ function App() {
         <p>The prospect of the Black Sea Grain Initiative and the reopening of the Black Sea ports helped to push down historically high market prices. Since April 2022, the FAO Food Price index has been on a downward trend.</p>
       </div>
       <div className="chart_container">
-        <ChartContainer src="https://datawrapper.dwcdn.net/eZZVE/1/" title="The Initiative has helped to push down food prices in the last six months" />
+        <ChartContainer src="https://datawrapper.dwcdn.net/eZZVE/" title="The Initiative has helped to push down food prices in the last six months" />
       </div>
       <div className="content_container">
         <p>However, prices have begun to rise again amid mounting concerns about whether the BSGI will be renewed, and the threat of further disruptions to trade in the Black Sea and the closure of grain corridors.</p>
       </div>
       <div className="chart_container">
-        <ChartContainer src="https://datawrapper.dwcdn.net/YT9P5/2/" title="However, uncertainty about the renewal of the Initiative is sending prices of grain up again" />
+        <ChartContainer src="https://datawrapper.dwcdn.net/YT9P5/" title="However, uncertainty about the renewal of the Initiative is sending prices of grain up again" />
       </div>
       <div className="content_container">
         <p>Wheat and maize prices are still at historically high levels, which continues to weigh on the affordability of basic foods and poses a risk to food security the world over.</p>

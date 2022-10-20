@@ -53,55 +53,6 @@
         font-size: 18px;
         font-weight: 500;
         line-height: 26px;
-        &.justify {
-          // text-align: justify;
-        }
-      }
-    }
-  }
-   .section_banner_container {
-    margin-bottom: 40px;
-    .section_banner {
-      background-position: 50% 50%;
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 300px;
-      position: relative;
-      .number {
-        bottom: 0;
-        left: -10px;
-        font-weight: 700;
-        font-size: 420px;
-        line-height: 287px;
-        position: absolute;
-        color: rgba(255, 255, 255, 0.85);
-        @media all and (max-width: 550px) {
-          display: none;
-        }
-      }
-    }
-    &.section_banner_container_1 .section_banner {
-      background-image: url("./../assets/img/2022-a_trade_hope_section1.jpg");
-    }
-    &.section_banner_container_2 .section_banner {
-      background-image: url("./../assets/img/2022-a_trade_hope_section2.jpg");
-    }
-    &.section_banner_container_3 .section_banner {
-      background-image: url("./../assets/img/2022-a_trade_hope_section3.jpg");
-    }
-    .heading_wrapper {
-      background-color: @unblue;
-      h3 {
-        box-sizing: border-box;
-        color: #fff;
-        font-family: "Roboto Condensed";
-        font-size: 34px;
-        margin: auto auto;
-        max-width: 700px;
-        padding: 10px 200px 10px 10px;
-        @media all and (max-width: 550px) {
-          padding: 10px 10px 10px 10px;
-        }
       }
     }
   }
@@ -228,7 +179,6 @@
         }
       }
     }
-
     .quote_container {
       margin-top: 60px;
       .photo_container {
@@ -246,7 +196,7 @@
       }
       .text_container {
         background-color: @unblue;
-        padding: 20px 0 1px 0;
+        padding: 20px 10px 1px 10px;
         position: relative;
         &:before {
           color: #000;
@@ -283,6 +233,52 @@
         text-transform: uppercase;
         &:hover {
           background-color: #fff;
+        }
+      }
+    }
+  }
+  .section_banner_container {
+    margin-bottom: 40px;
+    .section_banner {
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 300px;
+      position: relative;
+      .number {
+        bottom: 0;
+        left: -10px;
+        font-weight: 700;
+        font-size: 420px;
+        line-height: 287px;
+        position: absolute;
+        color: rgba(255, 255, 255, 0.85);
+        @media all and (max-width: 550px) {
+          display: none;
+        }
+      }
+    }
+    &.section_banner_container_1 .section_banner {
+      background-image: url("./../assets/img/2022-a_trade_hope_section1.jpg");
+    }
+    &.section_banner_container_2 .section_banner {
+      background-image: url("./../assets/img/2022-a_trade_hope_section2.jpg");
+    }
+    &.section_banner_container_3 .section_banner {
+      background-image: url("./../assets/img/2022-a_trade_hope_section3.jpg");
+    }
+    .heading_wrapper {
+      background-color: @unblue;
+      h3 {
+        box-sizing: border-box;
+        color: #fff;
+        font-family: "Roboto Condensed";
+        font-size: 34px;
+        margin: auto auto;
+        max-width: 700px;
+        padding: 10px 200px 10px 10px;
+        @media all and (max-width: 550px) {
+          padding: 10px 10px 10px 10px;
         }
       }
     }
