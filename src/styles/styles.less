@@ -3,7 +3,7 @@
 
 @import 'colors.less';
 @import 'site_overrides.less';
-
+@import 'arrow.css';
 #app-root-2022-a_trade_hope .app {
   font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   h2,
@@ -65,6 +65,7 @@
     margin: auto auto auto auto;
     max-width: 969px;
     position: relative;
+    margin-top: -60px;
     text-align: center;
     .logo_container {
       bottom: -90px;
@@ -78,7 +79,46 @@
       max-width: 124px;
     }
   }
- 
+  .button_container {
+    margin-top: 20px;
+    text-align: center;
+    a {
+      &.button {
+        background-color: rgba(0, 158, 219, 0.2);
+        border-radius: 15px;
+        color: #222;
+        font-size: 18px;
+        padding: 5px 15px;
+        text-decoration: none;
+        text-transform: uppercase;
+        &:hover {
+          background-color: @unblue;
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .last_slide {
+    .button_container {
+      a {
+        &.button {
+          background-color: rgba(255, 255, 255, 1);
+          border-radius: 15px;
+          color: #222;
+          padding: 5px 15px;
+          text-decoration: none;
+          text-transform: uppercase;
+          &:hover {
+            background-color: #fff;
+            color: @unblue;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+
   .content_container {
     box-sizing: border-box;
     margin: auto auto 40px auto;
@@ -157,33 +197,22 @@
       &.highlight {
         color: #fff;
       }
-      &.button_container {
-        margin-top: 60px;
-        text-align: center;
-      }
       a {
         color: @unblue;
         text-decoration: none;
         &:hover {
           text-decoration: underline;
         }
-        &.button {
-          background-color: rgba(255, 255, 255, 0.85);
-          padding: 5px 15px;
-          text-transform: uppercase;
-          color: #000;
-          &:hover {
-            background-color: rgba(255, 255, 255, 1);
-            text-decoration: none;
-          }
-        }
+        
       }
     }
     .quote_container {
-      margin-top: 60px;
+      background-color: @unblue;
+      margin: 40px auto auto auto;
       .photo_container {
         font-size: 0;
         margin-bottom: 20px;
+        padding: 20px;
         img {
           margin-bottom: 5px;
           width: 100%;
@@ -195,7 +224,6 @@
         }
       }
       .text_container {
-        background-color: @unblue;
         padding: 20px 10px 1px 10px;
         position: relative;
         &:before {
@@ -204,10 +232,11 @@
           font-family: "Georgia", serif;
           font-size: 120px;
           font-weight: 700;
-          line-height: 120px;
+          line-height: 20px;
           position: absolute;
-          right: -30px;
-          top: -30px;
+          right: 20px;
+          text-align: right;
+          top: 0px;
         }
         p {
           color: #fff;

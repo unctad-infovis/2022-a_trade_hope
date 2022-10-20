@@ -1,0 +1,35 @@
+.arrows {
+  height: 72px;
+  left: 50%;
+  margin-left: -30px;
+  position: absolute;
+  width: 60px;
+  z-index: 2;
+}
+
+.arrows path {
+  animation: arrow 2s infinite;
+  fill: transparent;
+  stroke-width: 3px;  
+  stroke: #000;
+}
+
+@keyframes arrow {
+  0% {opacity:0}
+  40% {opacity:1}
+  80% {opacity:0}
+  100% {opacity:0}
+}
+
+.arrows path.a1 {
+  animation-delay:-1s;
+}
+
+.arrows path.a2 {
+  animation-delay:-0.5s;
+}
+
+.arrows path.a3 { 
+  animation-delay:0s;
+  -webkitx-animation-delay:0s; /* Safari 和 Chrome */
+}
