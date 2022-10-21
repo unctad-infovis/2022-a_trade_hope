@@ -26,7 +26,7 @@ function App() {
         // Banner container
       }
       <div className="background" style={{ paddingBottom: 0 }}>
-        <div className="content_container">
+        <div className="content_container wide">
           <h2 className="title">A Trade Hope</h2>
           <h3 className="subtitle highlight">The Role Of The Black Sea Grain Initiative</h3>
           <h3 className="subtitle">In Bringing Ukrainian Grain To The World</h3>
@@ -199,6 +199,7 @@ function App() {
           <h3 className="highlight">The Initiative remains vital for global food security</h3>
           <p>The urgent threat of rising world hunger and the cost to human life requires an urgent response. Amid these difficult and complex challenges, the Black Sea Grain Initiative provided a measure of stability to our global food supply and especially for developing countries. The Initiative has gathered momentum and everyday ensures that more and more grain reaches the world. It has managed to lessen the blow on the most vulnerable but there is still more to be done to maintain access and restore exports to those in need.</p>
           <p className="highlight">For the time being, the Black Sea Grain Initiative may be our best hope.</p>
+          <br />
           <p className="button_container"><a href="https://unctad.org/webflyer/trade-hope-role-black-sea-grain-initiative-bringing-ukrainian-grain-world" className="button">Download the report in PDF</a></p>
         </div>
       </div>
