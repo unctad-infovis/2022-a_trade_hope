@@ -3,7 +3,7 @@
 
 @import 'colors.less';
 @import 'site_overrides.less';
-@import 'arrow.css';
+
 #app-root-2022-a_trade_hope .app {
   font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   h2,
@@ -14,6 +14,7 @@
     padding: 0 10px;
   }
   .background {
+    @import 'arrow.less';
     background-color: @unblue;
     box-sizing: border-box;
     padding: 60px 0 20px 0;
@@ -334,6 +335,5 @@
       width: 0;
     }
   }
+  @import 'basics.less';
 }
-
-@import 'basics.less';
