@@ -32,6 +32,9 @@ function App() {
           <h3 className="subtitle">In Bringing Ukrainian Grain To The World</h3>
           <h4 className="date">20 October 2022</h4>
         </div>
+        <div className="unctad_logo_container">
+          <img src="https://unctad.org/sites/default/files/2022-11/unctad_logo_white.svg" alt="UNCTAD logo" />
+        </div>
         <svg className="arrows">
           <path className="a1" d="M0 0 L30 32 L60 0" />
           <path className="a2" d="M0 20 L30 52 L60 20" />
