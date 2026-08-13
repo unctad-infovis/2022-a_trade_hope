@@ -14,7 +14,4 @@ ChartContainer.propTypes = {
   title: PropTypes.string.isRequired
 };
 
-ChartContainer.defaultProps = {
-};
-
 export default ChartContainer;
