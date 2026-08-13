@@ -33,7 +33,7 @@ function App() {
           <h4 className="date">20 October 2022</h4>
         </div>
         <div className="unctad_logo_container">
-          <img src="https://unctad.org/sites/default/files/2022-11/unctad_logo_white.svg" alt="UNCTAD logo" />
+          <img src={`${window.location.href.includes('unctad.org') ? 'https://storage.unctad.org/2022-a_trade_hope/' : './'}assets/img/unctad_logo_white.svg`} alt="UNCTAD logo" />
         </div>
         <svg className="arrows">
           <path className="a1" d="M0 0 L30 32 L60 0" />
